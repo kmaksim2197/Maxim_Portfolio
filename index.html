@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio and resume of a Full Stack Software Developer specializing in Python, JavaScript, and modern web technologies.">
+    <title>Software Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Dev<span>.</span></a>
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero glass-section" id="home">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h2 class="greeting">Hello, I'm</h2>
+                    <h1 class="title">Kuryazov Maxim <br><span class="highlight">Full Stack Developer</span></h1>
+                    <p class="subtitle">Men hozirda Tuproqqal'a tumanidagi IT Parkda tahsil olmoqdaman. Men back-end va front-end da tajribaga egaman.</p>
+                    <div class="hero-buttons">
+                        <a href="#resume" class="btn btn-primary">View Resume</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="about-content glass-card">
+                    <p>Men kompyuter texnologiyalari va dasturlashga ishtiyoqmand Full Stack dasturchiman. Murakkab muammolarni yechish, samarali algoritm yozish va chiroyli foydalanuvchi interfeys yaratish mening asosiy maqsadim.</p>
+                    <p>Asosan <strong>Python (Django, Flask)</strong> hamda <strong>Zamonaviy Frontend</strong> texnologiyalaridan foydalangan holda web ilovalar ishlab chiqaman. Ma'lumotlar bazasi sifatida PostgreSQL va MySQL tizimlarida katta tajribaga egaman.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-title">Experience:</span>
+                            <span class="info-value">2+ Years</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Location:</span>
+                            <span class="info-value">Khorezm, Uzbekistan</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Email:</span>
+                            <span class="info-value">kmaksim2197@gamil.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Freelance:</span>
+                            <span class="info-value">Available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="section-title">My <span>Skills</span></h2>
+                <div class="skills-grid">
+                    
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-server"></i> Backend</h3>
+                        <div class="skill-items">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Django</span>
+                            <span class="skill-tag">Flask</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-code"></i> Frontend</h3>
+                        <div class="skill-items">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-database"></i> Database</h3>
+                        <div class="skill-items">
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">SQLite</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-tools"></i> Tools</h3>
+                        <div class="skill-items">
+                            <span class="skill-tag">Linux</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="resume" id="resume">
+            <div class="container">
+                <h2 class="section-title">My <span>Experience</span></h2>
+                <div class="timeline">
+                    
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2026 - Present</div>
+                        <h3 class="timeline-title">Backend Developer</h3>
+                        <h4 class="timeline-company">IT Park</h4>
+                        <p class="timeline-text">Python, Django va REST API'larni ishlab chiqish, ma'lumotlar bazasini optimizatsiya qilish, server tomondagi loyiha arxitekturasini tuzish.</p>
+                    </div>
+
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022 - 2026</div>
+                        <h3 class="timeline-title">Full Stack Web Developer</h3>
+                        <h4 class="timeline-company">Freelance</h4>
+                        <p class="timeline-text">Turli xil mijozlar uchun web saytlar tayyorlash. Front-end qismini HTML, CSS va JS dan foydalanib, back-end qismini Flask yoki Django'da bajarish.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kuryazov Maxim Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
